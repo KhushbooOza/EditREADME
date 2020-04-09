@@ -7,3 +7,8 @@ Following are the prerequisites to deploy the application on local system:
 2. Maven 4.0
 3. MySQL DB
 4. Apache Tomcat Server
+
+## Running the application locally
+There are 2 ways to run Spring boot application locally:
+1.	Execute the main () method in the AssaultTrainingApplication.java class in com.uga.socialworkdept package
+2.	Use the Spring Boot Maven plugin like: mvn spring-boot:run
