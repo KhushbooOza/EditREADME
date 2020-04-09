@@ -1,1 +1,1 @@
-# EditREADME
+# Assault Training
