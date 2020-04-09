@@ -3,4 +3,7 @@ Project for Officers training in Assault cases, this application will help the o
 
 ## Requirements
 Following are the prerequisites to deploy the application on local system:
-
+1. Java - JDK 1.8
+2. Maven 4.0
+3. MySQL DB
+4. Apache Tomcat Server
