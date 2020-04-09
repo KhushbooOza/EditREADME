@@ -10,5 +10,5 @@ Following are the prerequisites to deploy the application on local system:
 
 ## Running the application locally
 There are 2 ways to run Spring boot application locally:
-1.	Execute the main () method in the AssaultTrainingApplication.java class in com.uga.socialworkdept package
-2.	Use the Spring Boot Maven plugin like: mvn spring-boot:run
+1.	Execute the `main ()` method in the `AssaultTrainingApplication.java` class in com.uga.socialworkdept package
+2.	Use the Spring Boot Maven plugin like: `mvn spring-boot:run`
