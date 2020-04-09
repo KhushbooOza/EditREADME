@@ -12,3 +12,16 @@ Following are the prerequisites to deploy the application on local system:
 There are 2 ways to run Spring boot application locally:
 1.	Execute the `main ()` method in the `AssaultTrainingApplication.java` class in com.uga.socialworkdept package
 2.	Use the Spring Boot Maven plugin like: `mvn spring-boot:run`
+
+## Packages
+1.	com.uga.socialworkdept – Includes the main method file to run the Spring boot application.
+2.	com.uga.socialworkdept.controller – Includes files defined to listen to the client
+3.	com.uga.socialworkdept.helper – Includes Java constant files and Password Authenticator file
+4.	com.uga.socialworkdept.model – Includes files to hold entities
+5.	com.uga.socialworkdept.repository – Files required to communicate with the database
+6.	com.uga.socialworkdept.service – Files required to hold business logic
+7.	src/main/resources/static – Contains static resources as css, js, images and sql as subfolders
+8.	src/main/resources/templates – Contains server-side templates which are rendered by Spring i.e the HTML files
+9.	src/main/resources/application.properties – This file includes application-wide properties such as server’s default port, server’s context path, database URLs, etc.
+10.	src/test/java - Includes files required for unit and integration testing 
+11.	pom.xml – This file includes all project dependencies
